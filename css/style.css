@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background: #171D34;
+overflow-x: hidden;
+} 
+/* Navbar STAT */
+.navbar{
+width: 100%;
+height: 100px; 
+} 
+.nav-item{
+margin: 0 30px;
+}
+.arfatul a{
+color: #CC5E28;
+}
+.arfatul  :hover{
+display: none;
+ }
+.nav-item a{
+ color: #FFFFFF;
+ margin-left: 80px;
+}
+.dro-list li{
+    color: #FFFFFF;
+}
+/* HERO START */
+.my-hero{
+    width: 100%;
+    /* height: 100vh; */
+    background: fixed;
+    background: #171D34;
+}
+.hero-text{
+    margin-top: 300px;
+}
+.hero-text p{
+    color: #5f9596;
+}
+.hero-btu{
+    display: flex;
+    width: 90%; 
+     height: 100px;
+align-items: center;
+margin-left: 300px;
+}
+.hero-btu button{
+    text-align: center;
+    width: 30%; 
+    height: 50px;
+   color: #FFFFFF;
+   background: #CC5F28;
+   margin-left: 40px;
+}
+.hero-image img{
+    width: 60%;
+    height: 45vh;
+align-items: center;
+    margin-top: 200px;
+}
+span{
+    color: #4AA5F0;
+}
+/* Hero END */
+/* OUR TEAM START */
+.team-section{
+    align-items: center;
+}
+.my-team{
+    width: 100%;
+    /* height: 100vh; */
+    background: fixed;
+    background: #171D34; 
+}
+.our-team{
+    margin-top: 310px;
+    margin-left: 30px;   
+}
+.our-team h3{
+color: #4AA5F0;
+}
+.team-butt button{
+ border-radius: 13px;
+   border: none;
+}
+.my-conten-2{
+    margin-top: 180px;
+}
+/* .my-team-card{
+    width: 70%;
+    height: 290px;
+    margin-right: 13px;
+ background: #212529;
+ text-align: center;
+} */
+.my-team-img{
+    width: 70%;
+    height: 250px;
+}
+.socail-icon{
+ margin-top: 20px;
+ font-size: 3px;
+}
+
+.socail-icon img{
+  
+    /* width: 2%; */
+    background-color: #4AA5F0; 
+margin: 0 4px;
+ border-radius: 50%;
+}
+.jonson h5{
+color: #CC5E28;
+}
+/* .jonson h4{
+    color: #FFFFFF;
+    } */
+/*  OUR TEAM  END */
+/* our-service Start */
+.my-service{
+    width: 100%;
+    /* height: fit-content; */
+    /* height: 120vh; */
+  background: #171D34; 
+}
+.our-service{
+text-align: center;
+}
+.our-service h3{
+ color: #4AA5F0;  
+}
+.my-cards{
+width: 95%;
+height: auto;
+/* overflow: hidden; */
+margin:60px 5px 1px 5px;
+ border-radius: 9px;
+background-color: #212529;
+}
+  .card-images img{
+    width: 75%;
+    height: 250px;
+  }
+.card-images p{
+    color: #AFB6D2;
+}
+.finger-secu button{
+    width: 70%;
+    height: 40px;
+border-radius: 12px;
+}
+.my-pagination{
+ margin-top: 30px;
+margin-left: 10px;
+}
+/* OUR START SERVICE END */
+
+/* Panding Start */
+.my-panding{
+    width: 100%;
+ background: #171D34;
+margin-top: 2px;
+
+}
+.my-panding-card{
+    width: 95%;
+    height: 20vh;
+
+    border-radius: 9px; 
+background: #212529;
+
+    }
+    .panding-card-image{
+        text-align: center;
+       padding-top: 30px;
+      
+       
+      }
+
+.my-cards-item{
+    margin: 70px 10px 40px 20px;
+}
+/*Panding END */
+/* Our Flexible Pricing Plans STart */
+.my-Plans{
+    /* background: #171D34; */
+    /* height: 100vh; */
+    /* margin-top: 200px; */
+    margin-left: 5px;
+}
+ .plans{
+ color: #4AA5F0;
+ margin-bottom: 90px;
+} 
+.plans-butt{
+text-align: center;  
+margin-top: -20px;
+}
+.plans-butt button{
+    width: 40%; 
+    height: 40px;
+    background: #D88730;
+    border-radius: 6px;
+  }
+.form-check {
+  margin-left: 10px;
+}
+
+
+.plans-butt button:hover{
+      background: #4AA5F0;
+        }
+.my-card{
+    border-radius: 9px;
+background-color: #212529;
+width: 85%;
+/* height: 72vh; */
+margin-top: 30px;
+}
+.my-card:hover{
+    border:1px solid #4AA5F0;
+}
+.card-image img{
+  width: 37%;
+    margin-top: 45px;
+}
+.card-image p{
+    color: #AFB6D2;
+ }
+.progress-bar{
+ width: 20%;
+}
+.prog{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.finger-secuti button{
+    width: 70%;
+    height: 50px;
+margin-right: 70px;
+    background: #05DAC3;
+}
+.finger-secut button{
+    width: 70%;
+    height: 50px;
+margin-right: 70px;
+    background: #CC5E28;
+}
+.finger-secu button{
+    width: 70%;
+    height: 50px;
+margin-right: 70px;
+    background: #977E4F;
+}
+.finger-sec button{
+    width: 70%;
+    height: 50px;
+margin-right: 70px;
+    background: #CA8E46;
+}
+/*  Our Flexible Pricing Plans END */
+
+/* contact START */
+.my-contact{
+    background: #AFB6D2;
+    margin-top: 70px;
+}
+.form-group{
+
+    margin-left: 20px;
+    margin-right: 100px;
+
+}
+.form-group input{
+  width: 100%;
+  height: 60px;
+  margin-left: 20px;
+}
+.form-group input.style{
+background-color: antiquewhite;
+border-radius: 8px; 
+}
+.form-group input:hover{
+    background: #4AA5F0;
+}
+.get-start h3{
+    color: #4AA5F0;
+}
+
+.message textarea{
+    background: #05DAC3;
+}
+.bt button{
+    background: #4AA5F0;
+   width: 20%;
+   height: 50px;
+   border-radius: 13px;
+ }
+ .bt button:hover{
+    background-color: #D88730;
+ }
+ /* Contact END */
+ /*Footer  */
+    .my-footer{
+        margin-top: 70px;
+     
+    }
+    .sayber h3{
+        margin-top:0 30px;
+    }
+.primary{
+color: #AFB6D2;
+}
+.list-group{
+    margin-left: 160px;
+color: #AFB6D2;
+
+}
+.contact-liste img{
+margin-left: 60px;
+}
+.tele-phone{
+    width: 17px;
+    height: 20px;
+margin-left: 8px;
+}
+ .contact-liste p{
+    margin-left: 40px;
+ }
+ .button{
+    margin-top: 20px;
+   background: #D88730;
+   color: #FFFFFF;
+   border-radius: 14px;
+    padding: 3px;
+    margin-left: 100px; 
+ }
+ .button:hover{
+    background-color: #4AA5F0;
+ }
